@@ -166,3 +166,38 @@ body {
 .footer-lin:focus {
   color: var(--accent-color);
 }
+
+/* Портфолио */
+
+.filter-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: cal(26/16);
+  text-align: center;
+  color: var(--primary-header-color);
+  background-color: var(--alt-bkg-color);
+  cursor: pointer;
+}
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--secondary-header-color);
+  background-color: var(--accent-color);
+}
+.examples-header {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: cal(36/18);
+  letter-spacing: 0.06em;
+  color: var(--primary-header-color);
+}
+
+.examples-text {
+  font-size: 16px;
+  line-height: cal(30/16);
+  color: var(--primary-text-color);
+}
+
+.examples-img {
+  width: 370px;
+  height: 294px;
+}
